@@ -1,4 +1,4 @@
-FROM httpd:2.4@sha256:c6b7745aa371570cc8460a9f08c39989583d4aa7bc8e3ed8bd77a492803ea704
+FROM httpd:2.4@sha256:f6a86043744215e4be90cf8804375d90022a711d892c9aa2d7085c089ee2cb54
 
 RUN apt-get update && apt-get install -y php5 php5-mysql
 
